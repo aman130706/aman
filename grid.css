@@ -1,0 +1,87 @@
+@font-face {
+    font-family: myfont;
+    src: url(GrandSlang-Roman.ttf);
+}
+
+
+body {
+    background-color: #ece7e1;
+}
+
+
+.main {
+    position: fixed;
+    top: 2.6%;
+    right: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.main a {
+    text-decoration: none;
+    color: #1A1818;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: myfont;
+    font-size: 150.26px;
+    text-align: left;
+}
+
+.main a:hover {
+    transform: skewX(-25deg);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: line-through; 
+    text-decoration-color: #ece7e1;  
+}
+
+.social {
+    transform: rotate(-90deg); 
+    position: fixed; 
+    top: 17%; 
+    right: 93.2%; 
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 30px; 
+}
+
+.social a {
+    text-decoration: none;
+    color: #1A1818;
+    text-transform: uppercase;
+    font-family: Copperplate;
+    font-size: 15px;
+    text-align: left;
+}
+
+.social a:hover {
+    
+    text-decoration: line-through; 
+    text-decoration-color: #1A1818;  
+}
+
+.line {
+    border-left: 1px solid black;
+    height: 140px;
+    position: fixed;
+    left: 35px;
+    bottom: 45%;
+  }
+
+.para{
+    margin-left: 10%;
+    margin-top: 30%;
+    font-family: Copperplate;
+    font-size: 15px;
+}
+.year{
+    transform: rotate(-90deg); 
+    position: fixed; 
+    color: #1A1818;
+    font-family: Copperplate;
+    font-size: 13px;
+    margin-left: 3px;
+
+}
